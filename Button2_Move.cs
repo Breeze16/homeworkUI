@@ -43,4 +43,4 @@ public class Button2_Move : MonoBehaviour {
         GetComponent<RectTransform> ().localPosition = new Vector3 (cur_x, cur_y - coll_Tranform.sizeDelta.y, 0);
         cur_y = cur_y - coll_Tranform.sizeDelta.y;
     }  
-}
+}   
