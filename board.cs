@@ -6,4 +6,4 @@ using UnityEngine.UI;
 
 public class Board : MonoBehaviour {
     public bool Button = false;
-}
+}  
