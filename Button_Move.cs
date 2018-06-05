@@ -10,5 +10,5 @@ public class Button_Move : MonoBehaviour {
     private float cur_y = 140;  
     void Update() {
         Panel.transform.Find("Image1").gameObject.GetComponent<RectTransform>().localPosition = new Vector3(cur_x, cur_y - 55, 0);
-    }
+    }  
 }  
