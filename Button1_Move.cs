@@ -31,4 +31,4 @@ public class Button1_Move : MonoBehaviour {
         GetComponent<RectTransform>().localPosition = new Vector3(x, y - coll_Tranform.sizeDelta.y, 0);//移动一个公告的高度
         cur_y = y - coll_Tranform.sizeDelta.y;//更新
     }  
-} 
+}
